@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(129, 224, 172), rgb(113, 203, 238));
+}
+
+.container {
+    width: 100%;
+    padding: 50px 300px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0 0 50px 0;
+    color: white;
+    text-shadow: 2px 1px black;
+}
+
+/* container form */
+form {
+    display: grid;
+    grid-template-columns: 700px 100px 100px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    margin: 0 0 30px 0;
+}
+
+form textarea {
+    min-width: 700px;
+    max-width: 700px;
+    height: 50px;
+    min-height: 50px;
+    max-height: 250px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+form textarea:focus {
+    outline: none;
+}
+
+form button {
+    width: 100px;
+    max-width: 100px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+form .form-button-1:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+form .form-button-2:hover {
+    background-color: crimson;
+    color: white;
+}
+
+.check {
+    text-decoration: line-through
+}
+
+/* todolistAll */
+.todolistAll {
+    display: grid;
+    grid-template-columns: 600px 95px 100px 100px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    margin: 5px 0 0 0;
+}
+
+.todolistAll div {
+    width: 600px;
+    min-height: 50px;
+    word-wrap: break-word;
+    word-break: break-all;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.todolistAll button {
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.todolistAll .todolistAll-btn-1:hover {
+    background-color: darkorange;
+    color: white;
+}
+
+.todolistAll .todolistAll-btn-2:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.todolistAll .todolistAll-btn-3:hover {
+    background-color: salmon;
+    color: white;
+}
